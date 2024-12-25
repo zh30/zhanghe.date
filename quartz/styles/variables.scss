@@ -5,16 +5,18 @@
  * Screen width between $mobile and $desktop width will use the tablet layout.
  * assuming mobile < desktop
  */
+@use "sass:map";
+
 $breakpoints: (
   mobile: 800px,
   desktop: 1200px,
 );
 
-$mobile: "(max-width: #{map-get($breakpoints, mobile)})";
-$tablet: "(min-width: #{map-get($breakpoints, mobile)}) and (max-width: #{map-get($breakpoints, desktop)})";
-$desktop: "(min-width: #{map-get($breakpoints, desktop)})";
+$mobile: "(max-width: #{map.get($breakpoints, mobile)})";
+$tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.get($breakpoints, desktop)})";
+$desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
-$pageWidth: #{map-get($breakpoints, mobile)};
+$pageWidth: #{map.get($breakpoints, mobile)};
 $sidePanelWidth: 320px; //380px;
 $topSpacing: 6rem;
 $boldWeight: 700;
