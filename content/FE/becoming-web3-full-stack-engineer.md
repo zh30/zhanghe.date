@@ -68,7 +68,7 @@ date: 2024-12-22
 
 **第三阶段：构建同构 Web3 应用（约 3-6 个月）**
 
-* **目标：** 掌握[[get-started-custom-isomorphic-frameworks|同构应用的概念和实践]]，能够构建用户友好的 Web3 应用前端，并理解图形学在 Web3 中的应用场景。
+* **目标：** 掌握 [[get-started-custom-isomorphic-frameworks|同构应用的概念和实践]]，能够构建用户友好的 Web3 应用前端，并理解图形学在 Web3 中的应用场景。
 * **学习内容：**
     * **同构应用 (Universal/Isomorphic JavaScript)：**
         * 同构的概念和优势
