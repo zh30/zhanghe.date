@@ -2,7 +2,6 @@
 title: Henry is coming
 date: 2025-01-09
 ---
-
 **(Intro)**  
 Yeah, mic check, one two  
 This ain't no drill, truth breaking through  

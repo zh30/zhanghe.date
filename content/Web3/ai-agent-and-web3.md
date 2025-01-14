@@ -2,7 +2,6 @@
 title: AI Agent 结合 Web3 的潜力
 date: 2024-12-30
 ---
-
 今天在 X 上看到[大宇](https://x.com/BTCdayu/status/1873572025274671372)老师的推文，觉得很有启发，所以结合 AI 的分析来水一篇博文来记录一下。
 
 [原推文](https://x.com/BTCdayu/status/1873572025274671372)如下：
