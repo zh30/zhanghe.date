@@ -2,7 +2,7 @@
 title: 一些常用的表达
 date: 2024-12-23
 ---
-**一、问候与介绍 (Greetings and Introductions)**
+## **一、问候与介绍 (Greetings and Introductions)**
 
 * **基本问候：**
     * Hi! (嗨！)
@@ -46,7 +46,7 @@ date: 2024-12-23
     * Pretty good, thanks for asking. (非常好，谢谢询问。)
     * Not good not bad. (不好不坏。)
 
-**二、询问对方背景信息 (Asking about Background Information)**
+## **二、询问对方背景信息 (Asking about Background Information)**
 
 * **询问对方来自哪里：**
     * Where are you from? (你来自哪里？)
@@ -69,7 +69,7 @@ date: 2024-12-23
     * What do you like to do in your free time? (你空闲时喜欢做什么？)
     * Do you have any hobbies? (你有什么爱好吗？)
 
-**三、表达自己的信息 (Sharing Your Information)**
+## **三、表达自己的信息 (Sharing Your Information)**
 
 * **说明自己学习英语的原因：**
     * I'm learning English. (我在学习英语。)
@@ -83,7 +83,7 @@ date: 2024-12-23
     * My hobby is [爱好]. (我的爱好是[爱好]。)
     * In my free time, I like to [活动]. (空闲时我喜欢[活动]。)
 
-**四、维持对话 (Keeping the Conversation Going)**
+## **四、维持对话 (Keeping the Conversation Going)**
 
 * **表示理解和肯定：**
     * I see. (我明白了。)
@@ -119,7 +119,7 @@ date: 2024-12-23
     * Thank you so much! (非常感谢你！)
     * I appreciate it. (我很感激。)
 
-**五、询问对方是否理解 (Checking for Understanding)**
+## **五、询问对方是否理解 (Checking for Understanding)**
 
 * **确认对方是否理解你：**
     * Do you understand? (你明白吗？)
@@ -133,7 +133,7 @@ date: 2024-12-23
     * Could you explain that? (你能解释一下吗？)
     * Please speak slowly. (请说慢一点。)
 
-**六、结束对话 (Ending the Conversation)**
+## **六、结束对话 (Ending the Conversation)**
 
 * **表示需要离开：**
     * I have to go now. (我现在要走了。)
@@ -153,7 +153,7 @@ date: 2024-12-23
     * Maybe we can chat again later? (也许我们稍后可以再聊？)
     * Do you have time to chat more tomorrow? (你明天有时间多聊一会儿吗？)
 
-**一、轻松友好的开场白 (Light and Friendly Openers):**
+## **七、轻松友好的开场白 (Light and Friendly Openers):**
 
 * **Comment on the Environment/Situation (评论环境/情景):**
     * "It's a nice day, isn't it?" (今天天气真好，不是吗？)  (适用于天气晴朗的时候)
@@ -171,13 +171,13 @@ date: 2024-12-23
     * "It looks like you're enjoying that [食物/饮料]." (看起来你很喜欢那个[食物/饮料]。)
     * "Are you waiting for someone?" (你在等谁吗？) (小心使用，确保语境合适)
 
-**后续问题 (Follow-up Questions):**
+### **后续问题 (Follow-up Questions):**
 
 * "What are you up to today?" (你今天要做什么？)
 * "Do you have any plans for the weekend?" (你周末有什么计划吗？)
 * "Have you done anything fun lately?" (你最近做了什么有趣的事情吗？)
 
-**二、兴趣爱好相关的话题 (Interest and Hobby Related Topics):**
+## **八、兴趣爱好相关的话题 (Interest and Hobby Related Topics):**
 
 * **Ask about hobbies (询问爱好):**
     * "What do you like to do in your free time?" (你空闲时喜欢做什么？)
@@ -192,14 +192,14 @@ date: 2024-12-23
     * "Are you into sports?" (你喜欢运动吗？)
     * "Do you play any sports?" (你做任何运动吗？)
 
-**后续问题 (Follow-up Questions):**
+### **后续问题 (Follow-up Questions):**
 
 * "Oh, I like [同样的爱好/兴趣] too! What's your favorite [相关的东西]?" (哦，我也喜欢[同样的爱好/兴趣]！你最喜欢的[相关的东西]是什么？) 例如：Oh, I like reading too! What's your favorite book? (哦，我也喜欢阅读！你最喜欢的书是什么？)
 * "That sounds interesting! How did you get into that?" (听起来很有趣！你是怎么开始喜欢上它的？)
 * "Have you heard of [相关的书籍/电影/音乐/运动队]?" (你听说过[相关的书籍/电影/音乐/运动队]吗？)
 * "Where do you usually [进行这项爱好]?" (你通常在哪里[进行这项爱好]？)
 
-**三、旅行和文化相关的话题 (Travel and Culture Related Topics):**
+## **九、旅行和文化相关的话题 (Travel and Culture Related Topics):**
 
 * **Ask about travel experiences (询问旅行经历):**
     * "Have you traveled anywhere interesting recently?" (你最近去过什么有趣的地方吗？)
@@ -213,14 +213,14 @@ date: 2024-12-23
     * "Is there anything I should know about your culture?" (关于你的文化，有什么我应该知道的吗？)
     * "What's a popular dish in your country?" (你们国家有什么受欢迎的菜肴？)
 
-**后续问题 (Follow-up Questions):**
+### **后续问题 (Follow-up Questions):**
 
 * "What did you like most about [那个地方]?" (你最喜欢[那个地方]的什么？)
 * "Would you recommend visiting [那个地方]?" (你推荐去[那个地方]旅游吗？)
 * "What are some must-see attractions there?" (那里有哪些必看的景点？)
 * "Have you ever been to [你的国家/城市]?" (你去过[你的国家/城市]吗？)
 
-**四、工作和学习相关的话题 (Work and Study Related Topics):**
+## **十、工作和学习相关的话题 (Work and Study Related Topics):**
 
 * **Ask about their work (询问他们的工作):**
     * "What kind of work do you do?" (你是做什么工作的？) (已经问过可以换个问法)
@@ -233,14 +233,14 @@ date: 2024-12-23
     * "What do you like most about your studies?" (你最喜欢你所学专业的哪一点？)
     * "What are your plans after you graduate?" (你毕业后有什么打算？)
 
-**后续问题 (Follow-up Questions):**
+### **后续问题 (Follow-up Questions):**
 
 * "That sounds interesting. How did you get into that field?" (听起来很有趣。你是怎么进入那个领域的？)
 * "What's a typical day like for you at work/school?" (你在工作/学校的典型一天是怎样的？)
 * "What are you working on at the moment?" (你目前在做什么项目？)
 * "What are your career goals?" (你的职业目标是什么？)
 
-**五、当前事件和兴趣点 (Current Events and Points of Interest) (小心使用，避免敏感话题):**
+## **十一、当前事件和兴趣点 (Current Events and Points of Interest) (小心使用，避免敏感话题):**
 
 * **Ask about recent events (询问最近发生的事件):**
     * "Have you seen that [最近热门的新闻/事件]?" (你看到那个[最近热门的新闻/事件]了吗？) (选择积极或中性的事件)
@@ -249,7 +249,7 @@ date: 2024-12-23
 * **Share something interesting you saw/read (分享你看到的/读到的有趣的东西):**
     * "I just saw a really interesting [视频/article] about [话题]." (我刚看了一个关于[话题]的很有趣的[视频/文章]。)
 
-**后续问题 (Follow-up Questions):**
+### **后续问题 (Follow-up Questions):**
 
 * "What did you think about it?" (你对此有什么看法？)
 * "Did you hear about [相关的事情]?" (你听说过[相关的事情]吗？)
