@@ -1,5 +1,5 @@
 ---
-title: Beginner 和 Learner 有什么区别
+title: Beginner 和 Learner 区别
 date: 2025-01-05
 ---
 “learner”和“beginner”都指处于学习的初始阶段，但它们之间存在一些细微的差别，主要体现在以下几个方面：
