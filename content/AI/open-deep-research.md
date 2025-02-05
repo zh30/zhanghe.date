@@ -112,7 +112,7 @@ GAIA 可以说是最全面的智能体 benchmark 了。它的问题非常难，�
 *   dzhng,
 *   assafelovic,
 *   nickscamara,
-*   jina-ai 和
+*   jina-ai
 *   mshumer.
 
 这些实现中的每一个都使用不同的库来索引数据、浏览网络和查询 LLM。在这个项目中，我们希望重现 OpenAI 提出的基准（pass@1 平均分），对切换到开源 LLM（如 DeepSeek R1）进行基准测试并记录我们的发现，使用视觉 LM，以及针对代码原生智能体对传统工具调用进行基准测试。
