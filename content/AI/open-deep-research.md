@@ -18,7 +18,7 @@ date: 2025-02-05
 
 智能体框架，其实就是在 LLM 之上加一层，让 LLM 可以执行各种动作 (比如上网或者读 PDF 文件)，还能把操作按步骤组织好。
 
-想快速了解智能体？可以看看 Andrew Ng 的采访，或者看看我们 smolagents 库的介绍博客。想深入了解？可以报名我们的智能体课程： [链接](https://huggingface.us17.list-manage.com/subscribe?u=7f57e683fa28b51bfc493d048&id=9ed45a3ef6).
+想快速了解智能体？可以看看 Andrew Ng 的采访，或者看看 Hugging Face smolagents 库的介绍博客。想深入了解？可以报名 Hugging Face 的智能体课程： [链接](https://huggingface.us17.list-manage.com/subscribe?u=7f57e683fa28b51bfc493d048&id=9ed45a3ef6).
 
 现在大家玩聊天机器人，都知道 LLM 有多厉害。但很多人还不知道，把 LLM 集成到智能体系统里，能让它们拥有真正的超能力！
 
@@ -91,23 +91,19 @@ GAIA 可以说是最全面的智能体 benchmark 了。它的问题非常难，�
 
 *   扩展可以读取的文件格式的数量。
 *   提出更细粒度的文件处理。
-*   用基于视觉的浏览器替换网页浏览器，我们已经[开始](https://github.com/huggingface/smolagents/blob/gaia-submission-r1/src/smolagents/vision_web_browser.py)这样做了。
+*   用基于视觉的浏览器替换网页浏览器，Hugging Face 已经[开始](https://github.com/huggingface/smolagents/blob/gaia-submission-r1/src/smolagents/vision_web_browser.py)这样做了。
 
 ## 结果 🏅
 
-在我们的 24 小时以上的山寨冲刺中，我们已经看到了我们的智能体在 GAIA 上的性能稳步提高！
+在我们的 24 小时以上的山寨冲刺中，已经看到了我们的智能体在 GAIA 上的性能稳步提高！
 
 我们已经迅速从以前的开源框架 SoTA（Magentic-One 大约为 46%）提升到目前在验证集上的 54% 的性能。
 
 性能的提升主要归功于让我们的智能体用代码编写他们的动作！事实上，当切换到在 JSON 中编写动作而不是代码的标准智能体时，相同设置的性能会立即降低到验证集上的平均 33%。
 
-这是最终的智能体系统。
-
-我们已经在这里设置了一个在线演示供你尝试！
-
 然而，这仅仅是个开始，还有很多事情需要改进！我们的开源工具可以做得更好，smolagents 框架也可以进行调整，我们很乐意探索更好的开源模型的性能来支持该智能体。
 
-我们欢迎社区加入我们，共同利用开源研究的力量来构建一个出色的开源智能体框架！这样任何人都可以使用他们最喜欢的模型，以完全本地化和定制的方式在家中运行类似 DeepResearch 的智能体！
+我们欢迎社区加入 Hugging Face，共同利用开源研究的力量来构建一个出色的开源智能体框架！这样任何人都可以使用他们最喜欢的模型，以完全本地化和定制的方式在家中运行类似 DeepResearch 的智能体！
 
 ## 社区复现
 
