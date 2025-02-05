@@ -68,7 +68,7 @@ FastHTML 项目遵循这两个建议来构建其文档。例如，这里有 Fast
 ## 示例
 
 这是 `/llms.txt` 的示例，在本例中是 FastHTML 项目所用文件（缩减版）（另请参阅完整版本：
-```
+```markdown
 # FastHTML
 
 > FastHTML 是一个 Python 库，它将 Starlette、Uvicorn、HTMX 和 fastcore 的`FT`（“FastTags”）整合到一个用于创建服务器渲染超媒体应用程序的库中。
