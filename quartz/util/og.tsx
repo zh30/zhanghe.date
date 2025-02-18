@@ -144,7 +144,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
   _fileData: QuartzPluginData,
 ) => {
   // How many characters are allowed before switching to smaller font
-  const fontBreakPoint = 22
+  const fontBreakPoint = 10
   const useSmallerFont = title.length > fontBreakPoint
 
   // Setup to access image
@@ -182,6 +182,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
             color: cfg.theme.colors[colorScheme].dark,
             fontSize: useSmallerFont ? 70 : 82,
             fontFamily: fonts[0].name,
+            lineHeight: 1.1,
           }}
         >
           {title}
@@ -192,6 +193,11 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
           color: cfg.theme.colors[colorScheme].dark,
           fontSize: 44,
           lineClamp: 3,
+          overflow: "hidden",
+          textOverflow: "ellipsis",
+          display: "-webkit-box",
+          WebkitLineClamp: 3,
+          WebkitBoxOrient: "vertical",
           fontFamily: fonts[1].name,
         }}
       >
