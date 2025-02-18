@@ -19,7 +19,7 @@ const config: QuartzConfig = {
     baseUrl: "zhanghe.date",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: false,
+    generateSocialImages: true,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
