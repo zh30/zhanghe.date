@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f738cb3253d9d72a",
+        "id": "84d9bd6d03ae30e7",
         "type": "tabs",
         "children": [
           {
-            "id": "cb429ce42e429003",
+            "id": "152acf8d820b24a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/phi-4-multimodal.md",
+                "file": "news/qwq-32b.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "phi-4-multimodal"
+              "title": "qwq-32b"
             }
           }
         ]
@@ -199,8 +199,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cb429ce42e429003",
+  "active": "152acf8d820b24a1",
   "lastOpenFiles": [
+    "news/qwq-32b.md",
+    "news/deno-and-wasm.md",
     "ai/phi-4-multimodal.md"
   ]
 }
