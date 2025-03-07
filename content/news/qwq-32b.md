@@ -22,7 +22,7 @@ QwQ-32B 已经在 [Hugging Face](https://huggingface.co/Qwen/QwQ-32B) 和 [Model
 
 下面是一些简单的例子，展示了如何通过 Hugging Face Transformers 和阿里云 DashScope API 使用 QwQ-32B。
 
-```
+```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 model_name = "Qwen/QwQ-32B"
@@ -58,7 +58,7 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 print(response)
 ```
 
-```
+```python
 from openai import OpenAI
 import os
 
