@@ -1,3 +1,5 @@
+@use "sass:map";
+
 /**
  * Layout breakpoints
  * $mobile: screen width below this value will use mobile styles
@@ -5,7 +7,6 @@
  * Screen width between $mobile and $desktop width will use the tablet layout.
  * assuming mobile < desktop
  */
-@use "sass:map";
 
 $breakpoints: (
   mobile: 800px,
@@ -17,7 +18,7 @@ $tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.ge
 $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
 $pageWidth: #{map.get($breakpoints, mobile)};
-$sidePanelWidth: 320px; //380px;
+$sidePanelWidth: 320px;
 $topSpacing: 6rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;
@@ -56,3 +57,69 @@ $desktopGrid: (
       "grid-sidebar-left grid-center grid-sidebar-right"\
       "grid-sidebar-left grid-footer grid-sidebar-right"',
 );
+
+$fonts: (
+  header: "Inter",
+  body: "Inter",
+  code: "IBM Plex Mono",
+);
+
+:root {
+  --max-width: 1200px;
+
+  --header-height: 64px;
+
+  --page-width: var(--max-width);
+
+  --font-header: #{map.get($fonts, header)};
+  --font-body: #{map.get($fonts, body)};
+  --font-code: #{map.get($fonts, code)};
+}
+
+$light: #faf8f8;
+$lightgray: #e5e5e5;
+$gray: #b8b8b8;
+$darkgray: #4e4e4e;
+$dark: #2b2b2b;
+$secondary: #284b63;
+$tertiary: #84a59d;
+$highlight: rgba(143, 159, 169, 0.15);
+$textHighlight: #fff23688;
+
+:root {
+  color-scheme: light;
+
+  --light: #{$light};
+  --lightgray: #{$lightgray};
+  --gray: #{$gray};
+  --darkgray: #{$darkgray};
+  --dark: #{$dark};
+  --secondary: #{$secondary};
+  --tertiary: #{$tertiary};
+  --highlight: #{$highlight};
+  --textHighlight: #{$textHighlight};
+}
+
+$dark-light: #161618;
+$dark-lightgray: #393639;
+$dark-gray: #646464;
+$dark-darkgray: #d4d4d4;
+$dark-dark: #ebebec;
+$dark-secondary: #7b97aa;
+$dark-tertiary: #84a59d;
+$dark-highlight: rgba(143, 159, 169, 0.15);
+$dark-textHighlight: #b3aa0288;
+
+:root[data-theme] {
+  color-scheme: dark;
+
+  --light: #{$dark-light};
+  --lightgray: #{$dark-lightgray};
+  --gray: #{$dark-gray};
+  --darkgray: #{$dark-darkgray};
+  --dark: #{$dark-dark};
+  --secondary: #{$dark-secondary};
+  --tertiary: #{$dark-tertiary};
+  --highlight: #{$dark-highlight};
+  --textHighlight: #{$dark-textHighlight};
+}

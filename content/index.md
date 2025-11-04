@@ -12,12 +12,12 @@ date: 2024-12-21
 ## 关于我
 
 ```ts
-const name = "张赫";
-const description = "一个喜欢折腾的程序员";
-const email = "hello@zhanghe.dev";
-const github = "https://github.com/zh30";
-const x = "https://x.com/zhanghedev";
-const linkedin = "https://www.linkedin.com/in/zhanghe";
+const name = "张赫"
+const description = "一个喜欢折腾的程序员"
+const email = "hello@zhanghe.dev"
+const github = "https://github.com/zh30"
+const x = "https://x.com/zhanghedev"
+const linkedin = "https://www.linkedin.com/in/zhanghe"
 ```
 
 ## 我的歌

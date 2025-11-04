@@ -2,15 +2,16 @@
 title: 用 Rust 给 JavaScript 加速：WebAssembly 实战
 date: 2025-03-05
 ---
+
 JavaScript 嘛，大家都知道，是门脚本语言，离 CPU 直接运行的机器码还是有点距离的。但是，JavaScript 有个秘密武器，叫做 WebAssembly (Wasm)，可以让它执行接近机器码的东西！Wasm 是一种底层、可移植的二进制格式，能在浏览器里跑出接近原生应用的速度！
 
 Wasm 特别适合像 C、C++、Rust 这样的语言编译后跑在浏览器里，让那些高性能应用，比如 [Google Earth](https://medium.com/google-earth/google-earth-comes-to-more-browsers-thanks-to-webassembly-1877d95810d6) 和 [Photoshop](https://web.dev/articles/ps-on-the-web)，直接在浏览器里溜起来。而且 Wasm 还超级安全，因为它有严格的沙盒机制，所以特别适合金融、医疗这种对安全性要求高的平台。现在 [Deno 2.1 已经完美支持 Wasm](https://deno.com/blog/v2.1#first-class-wasm-support) 啦，用 Wasm 模块比以前更简单了！
 
 这篇文章就来教大家怎么创建一个简单的 Wasm 模块，并且通过它在 JavaScript 里调用 Rust 代码。
 
-*   [搞一个 Wasm 模块](https://deno.com/blog/intro-to-wasm#building-a-wasm-module)
-*   [让 JavaScript 通过 Wasm 调用 Rust](https://deno.com/blog/intro-to-wasm#call-rust-from-javascript-via-wasm)
-*   [下一步搞啥？](https://deno.com/blog/intro-to-wasm#whats-next)
+- [搞一个 Wasm 模块](https://deno.com/blog/intro-to-wasm#building-a-wasm-module)
+- [让 JavaScript 通过 Wasm 调用 Rust](https://deno.com/blog/intro-to-wasm#call-rust-from-javascript-via-wasm)
+- [下一步搞啥？](https://deno.com/blog/intro-to-wasm#whats-next)
 
 ## 咱们先搞个 Wasm 模块
 
@@ -37,9 +38,9 @@ wat2wasm add.wat -o add.wasm
 好啦，现在把 `add.wasm` 导入到 Deno 里试试：
 
 ```javascript
-import { add } from "./add.wasm";
+import { add } from "./add.wasm"
 
-console.log(add(1, 2));
+console.log(add(1, 2))
 ```
 
 跑一下，结果是：
@@ -60,9 +61,9 @@ Deno 导入 Wasm 的时候，会识别它的导出项，并且会[做类型检�
 
 ```json
 {
-"tasks": {
-"wasmbuild": "deno run -A jsr:@deno/wasmbuild@0.19.0"
-}
+  "tasks": {
+    "wasmbuild": "deno run -A jsr:@deno/wasmbuild@0.19.0"
+  }
 }
 ```
 
@@ -134,11 +135,11 @@ deno task wasmbuild
 
 这会生成一些文件：
 
-*   `lib/rs_lib.internal.js`
-*   `lib/rs_lib.js`
-*   `lib/rs_lib.d.ts`
-*   `lib/rs_lib.wasm`
-*   `mod.js`
+- `lib/rs_lib.internal.js`
+- `lib/rs_lib.js`
+- `lib/rs_lib.d.ts`
+- `lib/rs_lib.wasm`
+- `mod.js`
 
 我们可以用 [Wasm Code Explorer](https://wasdk.github.io/wasmcodeexplorer/) 把生成的 wasm 二进制文件 `lib/rs_lib.wasm` 可视化一下：
 
@@ -147,12 +148,12 @@ deno task wasmbuild
 现在来导入它。最后一个文件 `mod.js` 其实包含了怎么在 JavaScript 里导入 Rust 函数的例子：
 
 ```javascript
-import { add, Greeter } from "./lib/rs_lib.js";
+import { add, Greeter } from "./lib/rs_lib.js"
 
-console.log(add(1, 1));
+console.log(add(1, 1))
 
-const greeter = new Greeter("world");
-console.log(greeter.greet());
+const greeter = new Greeter("world")
+console.log(greeter.greet())
 ```
 
 这会导入 `add` 和 `Greeter`，这些函数原本是用 Rust 写的，但是被转换成了 JavaScript 可以用的形式。你可以运行 `deno mod.js` 试试：

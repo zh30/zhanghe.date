@@ -1,10 +1,7 @@
 {
   "autocorrect-formatter:format-content": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "F"
     }
   ]

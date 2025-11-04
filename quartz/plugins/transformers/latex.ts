@@ -4,6 +4,7 @@ import rehypeMathjax from "rehype-mathjax/svg"
 //@ts-ignore
 import rehypeTypst from "@myriaddreamin/rehype-typst"
 import { QuartzTransformerPlugin } from "../types"
+// @ts-ignore
 import { KatexOptions } from "katex"
 import { Options as MathjaxOptions } from "rehype-mathjax/svg"
 //@ts-ignore
@@ -59,8 +60,6 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
               },
             ],
           }
-        default:
-          return { css: [], js: [] }
       }
     },
   }

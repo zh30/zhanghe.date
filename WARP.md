@@ -14,6 +14,7 @@ This is a Quartz v4 static site generator for publishing a digital garden/notes 
 ## Common Commands
 
 ### Development
+
 ```bash
 # Start local dev server with hot reload (default on port 8080)
 pnpm dev
@@ -22,6 +23,7 @@ npx quartz build --serve
 ```
 
 ### Building
+
 ```bash
 # Build static site for production
 pnpm build
@@ -36,6 +38,7 @@ npx quartz build --bundleInfo
 ```
 
 ### Code Quality
+
 ```bash
 # Type check and format check
 pnpm check
@@ -48,6 +51,7 @@ pnpm test
 ```
 
 ### Quartz CLI Commands
+
 ```bash
 # Create/initialize Quartz setup
 npx quartz create
@@ -146,6 +150,7 @@ The build system follows a three-stage plugin architecture:
 ## Testing
 
 Tests use `tsx` to run TypeScript directly:
+
 - Path utilities: `quartz/util/path.test.ts`
 - Dependency graph: `quartz/depgraph.test.ts`
 
@@ -154,6 +159,7 @@ Run with `pnpm test` or individually: `tsx ./quartz/util/path.test.ts`
 ## Plugin Development
 
 To add custom functionality:
+
 1. Create transformer/filter/emitter in respective `quartz/plugins/` subdirectory
 2. Export from `quartz/plugins/index.ts`
 3. Add to plugin array in `quartz.config.ts`
@@ -162,6 +168,7 @@ To add custom functionality:
 ## Component Development
 
 Components are Preact/TSX files in `quartz/components/`:
+
 - Export a function that returns a `QuartzComponent`
 - Use `QuartzComponentProps` for type safety
 - Register in `quartz.layout.ts` for different page types
